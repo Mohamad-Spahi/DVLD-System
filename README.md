@@ -19,3 +19,10 @@ A comprehensive full-scale Windows Forms desktop application developed using C#.
 
 ## 👨‍💻 Author
 Developed as part of the professional C# / .NET backend roadmap.
+
+## ⚙️ How to Run the Project
+1. Clone or download the repository.
+2. Restore the database using the provided .bak file in SQL Server Management Studio (SSMS).
+3. Open the solution (.sln) using Visual Studio.
+4. Navigate to the DataAccess layer and update the connection string inside the **DataAccessSettings.cs** class to match your local SQL Server instance.
+5. Build and run the application!
