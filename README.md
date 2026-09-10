@@ -22,7 +22,7 @@ Developed as part of the professional C# / .NET backend roadmap.
 
 ## ⚙️ How to Run the Project
 1. Clone or download the repository.
-2. Locate the database backup file inside the repository: **Database/DVLD.bak**
+2. Locate the database backup file inside the repository: **DB_Backup/DVLD.bak**
 3. Open SQL Server Management Studio (SSMS) Restorere** the database using this .bak file.
 4. Open the solution (.sln) using Visual Studio.
 5. Navigate to the DataAccess layer and update the connection string inside the **DataAccessSettings.cs** class to match your local SQL Server instance.
